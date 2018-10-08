@@ -1,0 +1,54 @@
+{
+    "cards": [
+        {
+          "id": 1,
+          "apr": 18.9,
+          "name": "Student Life Card",
+          "filter": {
+            "whiteListedEmploymentStatuses": ["Student"],
+            "incomeLimit": 0
+          },
+          "credit": 1200,
+          "offerDuration": {
+            "purchase": 6,
+            "balanceTransfer": 0
+          }
+        },
+        {
+          "id": 2,
+          "apr": 33.9,
+          "name": "Anywhere Card",
+          "filter": {
+            "whiteListedEmploymentStatuses": [
+              "Student",
+              "Part Time Employed",
+              "Full Time Employed"
+            ],
+            "incomeLimit": 0
+          },
+          "credit": 300,
+          "offerDuration": {
+            "purchase": 0,
+            "balanceTransfer": 0
+          }
+        },
+        {
+          "id": 3,
+          "apr": 33.9,
+          "name": "Liquid Card",
+          "filter": {
+            "whiteListedEmploymentStatuses": [
+              "Student",
+              "Part Time Employed",
+              "Full Time Employed"
+            ],
+            "incomeLimit": 16000
+          },
+          "credit": 3000,
+          "offerDuration": {
+            "purchase": 6,
+            "balanceTransfer": 12
+          }
+        }
+    ]
+}
